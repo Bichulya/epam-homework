@@ -1,85 +1,40 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENYO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-    <body>
-        <header class="header">
-            <nav>
-                <img src="img/logo.png" alt="ENYO-icon" class="logo">
-                <p class="about">
-                    <a href="about">About</a>
-                </p>
-                <p class="downloads">
-                    <a href="downloads">
-                        Downloads
-                    </a>
-                </p>
-                <p class="plans">
-                    <a href="plans">
-                        Plans
-                    </a>
-                </p>
-                <p class="contact">
-                    <a href="contact">
-                        Contact
-                    </a>
-                </p>
-                <img src="img/search.png" alt="Search" class="search">
-            </nav>
-            
-            <div class="header-content">
-                <div class="container">
-                    <h1>Free psd sweb template</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua.</p>
-                    <button class="btn-download">
-                        <span class="save-icon">
-                            <img src="img/save.png" alt="save-icon">
-                        </span>
-                        <span class="btn-text">
-                            Download
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </header>
-
-        <main>
-            <section>
-                <h2>Just download it</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. </p>
-                <span>
-                    <img class="checkmark" src="img/checkmark.png" alt="checkmark">
-                    Duis aute irure dolor in reprehenderit in voluptate.
-                </span>
-                <span>
-                    <img class="checkmark" src="img/checkmark.png" alt="checkmark">
-                    Excepteur sint occaecat cupidatat non proident.
-                </span>
-                <span class="last">
-                    <img class="checkmark" src="img/checkmark.png" alt="checkmark">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
-                </span>
-                <button class="btn-readmore">
-                    Read more
-                </button>
-            </section>
-            
-            <aside>
-                <img src="img/MacbookFull.png" class="macbook-image"  alt="macbook-image">
-            </aside>
-        </main>
-    </body>
+<body>
+    <div id="calculator">
+        <!-- Screen and clear key -->
+        <div class="top">
+            <span class="clear">C</span>
+            <div class="screen"></div>
+        </div>
+        
+        <div class="keys">
+            <!-- operators and other keys -->
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span class="operator">+</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span class="operator">-</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span class="operator">÷</span>
+            <span>0</span>
+            <span>.</span>
+            <span class="eval">=</span>
+            <span class="operator">x</span>
+        </div>
+    </div>
+    
+    <!-- PrefixFree -->
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
 </html>
